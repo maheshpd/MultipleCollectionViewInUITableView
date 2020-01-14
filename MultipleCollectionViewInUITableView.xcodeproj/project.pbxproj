@@ -13,6 +13,8 @@
 		010C5C9823CDD866005A035E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 010C5C9623CDD866005A035E /* Main.storyboard */; };
 		010C5C9A23CDD876005A035E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 010C5C9923CDD876005A035E /* Assets.xcassets */; };
 		010C5C9D23CDD876005A035E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 010C5C9B23CDD876005A035E /* LaunchScreen.storyboard */; };
+		010C5CA523CDD98C005A035E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010C5CA423CDD98C005A035E /* TableViewCell.swift */; };
+		010C5CA723CDDBF5005A035E /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010C5CA623CDDBF5005A035E /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		010C5C9923CDD876005A035E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		010C5C9C23CDD876005A035E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		010C5C9E23CDD876005A035E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		010C5CA423CDD98C005A035E /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		010C5CA623CDDBF5005A035E /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				010C5C9923CDD876005A035E /* Assets.xcassets */,
 				010C5C9B23CDD876005A035E /* LaunchScreen.storyboard */,
 				010C5C9E23CDD876005A035E /* Info.plist */,
+				010C5CA423CDD98C005A035E /* TableViewCell.swift */,
+				010C5CA623CDDBF5005A035E /* CollectionViewCell.swift */,
 			);
 			path = MultipleCollectionViewInUITableView;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				010C5CA723CDDBF5005A035E /* CollectionViewCell.swift in Sources */,
 				010C5C9523CDD866005A035E /* ViewController.swift in Sources */,
+				010C5CA523CDD98C005A035E /* TableViewCell.swift in Sources */,
 				010C5C9123CDD866005A035E /* AppDelegate.swift in Sources */,
 				010C5C9323CDD866005A035E /* SceneDelegate.swift in Sources */,
 			);
@@ -287,6 +295,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JC249Z4L24;
 				INFOPLIST_FILE = MultipleCollectionViewInUITableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +314,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JC249Z4L24;
 				INFOPLIST_FILE = MultipleCollectionViewInUITableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
